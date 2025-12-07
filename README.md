@@ -12,6 +12,21 @@ Designed using a **12-Phase Deep Engineering Framework**, EX360 introduces a nex
 
 ---
 
+## 🔄 End-to-End Data Flow (Signal → Case → Decision → Action → Twin Snapshot)
+
+
+<img width="1536" height="1024" alt="Work Flow" src="https://github.com/user-attachments/assets/ff98e647-a50e-4c14-8aef-5f8cd8eb5c3c" />
+
+
+The EX360 pipeline transforms raw enterprise signals into intelligent automated actions:
+
+1. **Signal Received:** EX360 Signal table logs inbound events from enterprise systems.
+2. **Case Creation:** A Case record is automatically created & enriched.
+3. **Decision Engine:** AI/Rules evaluate and determine the correct decision.
+4. **Action Execution:** Automated workflow/action executes based on decision outcome.
+5. **Digital Twin Snapshot:** Final state of the entire transaction is captured for analytics.
+
+
 ## 🌟 Core Components
 
 - 🚨 **Signal Ingestion Engine**

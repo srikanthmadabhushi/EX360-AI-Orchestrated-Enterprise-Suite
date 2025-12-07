@@ -41,154 +41,6 @@ The EX360 pipeline transforms raw enterprise signals into intelligent automated 
 
 ## 🎯 Key Capabilities
 
-### 🔹 1. Real-Time Signal Processing  
-Captures, validates, and transforms external system signals into workflow triggers.
-
-### 🔹 2. Autonomous Decision Intelligence  
-Generates decisions using confidence scoring, case mapping, and historical insight.
-
-### 🔹 3. Intelligent Action Execution  
-Executes deterministic, logged, and auditable actions (routing, communication, remediation, etc.)
-
-### 🔹 4. Digital Twin State Snapshots  
-Captures enterprise “state” after each action:
-
-- Signal details  
-- Case  
-- Decision outcome  
-- Executed action  
-- Timestamp  
-- State version history  
-
-### 🔹 5. AEB Command Center (Dashboard)  
-A live intelligence cockpit that shows:
-
-- Flow load map  
-- Confidence trend  
-- Decision breakdown  
-- Action efficiency  
-- Case journey visualization  
-- Signal → Case Processing Time  
-
-### 🔹 6. Security Framework  
-Custom ACLs ensure protected access:
-
-| Role | Access Level |
-|------|--------------|
-| `admin` | Full CRUD |
-| `itil` | Case + decision insights |
-| `ex360.user` | Dashboards + reporting |
-
----
-
-## 🧩 System Architecture Diagram
-
-┌───────────────────────────┐
-│ SIGNAL INGESTION │
-└──────────────┬────────────┘
-│
-▼
-┌───────────────────────────┐
-│ Autonomous Enterprise │
-│ Brain (AEB) │
-└───────┬────────────────────┘
-│
-├──────────► Decision Engine
-│
-└──────────► Action Engine
-│
-▼
-┌───────────────────────────┐
-│ Digital Twin Snapshot │
-└────────────────────────────┘
-│
-▼
-┌───────────────────────────┐
-│ EX360 Command Center │
-└────────────────────────────┘
-
-yaml
-Copy code
-
----
-
-## 📊 Dashboards & KPIs
-
-| Dashboard | Purpose |
-|-----------|----------|
-| Flow Load Map | Volumes across signals → cases → decisions → actions |
-| Confidence Trend | Decision reliability over time |
-| Category Breakdown | Distribution of decision types |
-| Action Efficiency | Ratio of decisions vs executed actions |
-| Case Journey Map | Lifecycle analytics |
-| Avg Signal → Case Time | Operational processing speed |
-
----
-
-## 🔧 Installation Guide
-
-### Step 1️⃣ — Install the Application  
-Import the update set or clone the repo into your PDI.
-
-### Step 2️⃣ — Assign Required Roles
-- `admin`
-- `itil`
-- `ex360.user`
-
-### Step 3️⃣ — Generate Sample Signals  
-Navigate to:
-
-EX360 → Signals → New
-
-shell
-Copy code
-
-### Step 4️⃣ — View Dashboards  
-EX360 → Command Center → AEB Command Center
-
-yaml
-Copy code
-
----
-
-## 🗂 Repository Structure
-
-/src
-/tables
-/scripts
-/ui_policies
-/ui_actions
-/business_rules
-/dashboards
-/docs
-architecture_overview.png
-/images
-ex360_banner.png
-README.md
-LICENSE
-
-yaml
-Copy code
-
----
-
-## 📝 Release Notes (v1.0.0)
-
-### 🚀 Initial Stable Release
-
-- Full signal → case → decision → action automation  
-- Digital Twin snapshot engine  
-- Advanced dashboards  
-- Secure ACL framework  
-- 12-Phase engineering documentation  
-
----
-
-## ✨ Key Features of EX360
-
-EX360 is engineered as an autonomous, AI-driven workflow engine that transforms enterprise operations from reactive to predictive.  
-The platform delivers both **business value** and **deep technical capability**.
-
 ---
 
 ## 🔹 1. Real-Time Signal Intelligence
@@ -311,6 +163,208 @@ Designed so teams can build plugins or extend any phase:
 - External AI integrations (OpenAI, Vertex AI, etc.)  
 
 ---
+
+- Signal details  
+- Case  
+- Decision outcome  
+- Executed action  
+- Timestamp  
+- State version history  
+
+### 🔹 5. AEB Command Center (Dashboard)  
+A live intelligence cockpit that shows:
+
+- Flow load map  
+- Confidence trend  
+- Decision breakdown  
+- Action efficiency  
+- Case journey visualization  
+- Signal → Case Processing Time  
+
+### 🔹 6. Security Framework  
+Custom ACLs ensure protected access:
+
+| Role | Access Level |
+|------|--------------|
+| `admin` | Full CRUD |
+| `itil` | Case + decision insights |
+| `ex360.user` | Dashboards + reporting |
+
+---
+
+## 🧩 System Architecture Diagram
+
+┌───────────────────────────┐
+│ SIGNAL INGESTION │
+└──────────────┬────────────┘
+│
+▼
+┌───────────────────────────┐
+│ Autonomous Enterprise │
+│ Brain (AEB) │
+└───────┬────────────────────┘
+│
+├──────────► Decision Engine
+│
+└──────────► Action Engine
+│
+▼
+┌───────────────────────────┐
+│ Digital Twin Snapshot │
+└────────────────────────────┘
+│
+▼
+┌───────────────────────────┐
+│ EX360 Command Center │
+└────────────────────────────┘
+
+yaml
+Copy code
+
+---
+
+## 📊 Dashboards & KPIs
+
+| Dashboard | Purpose |
+|-----------|----------|
+| Flow Load Map | Volumes across signals → cases → decisions → actions |
+| Confidence Trend | Decision reliability over time |
+| Category Breakdown | Distribution of decision types |
+| Action Efficiency | Ratio of decisions vs executed actions |
+| Case Journey Map | Lifecycle analytics |
+| Avg Signal → Case Time | Operational processing speed |
+
+---
+
+## 🔧 Installation Guide
+
+### Step 1️⃣ — Install the Application  
+Import the update set or clone the repo into your PDI.
+
+### Step 2️⃣ — Assign Required Roles
+- `admin`
+- `itil`
+- `ex360.user`
+
+### Step 3️⃣ — Generate Sample Signals  
+Navigate to:
+
+EX360 → Signals → New
+
+shell
+Copy code
+
+### Step 4️⃣ — View Dashboards  
+EX360 → Command Center → AEB Command Center
+
+yaml
+Copy code
+
+---
+
+## 🗂 Repository Structure
+
+/src
+/tables
+/scripts
+/ui_policies
+/ui_actions
+/business_rules
+/dashboards
+/docs
+architecture_overview.png
+/images
+ex360_banner.png
+README.md
+LICENSE
+
+yaml
+Copy code
+
+---
+
+---
+
+## 🏷️ Release Notes
+
+### **Version 1.0.0 — Initial Public Release**
+**Release Date:** December 2025  
+**Status:** Stable Release  
+**Scope:** End-to-End Autonomous Workflow Suite
+
+The EX360 AI Orchestrated Enterprise Suite delivers a fully autonomous enterprise workflow engine built on the ServiceNow platform. This release introduces the complete lifecycle system capable of intelligent processing across Signals, Cases, Decisions, Actions, and Digital Twin Snapshots.
+
+---
+
+### 🌟 **Key Highlights**
+
+#### **1. Autonomous Workflow Pipeline**
+Fully automated pipeline:
+- Signal Ingestion  
+- Case Creation  
+- Decision Modeling  
+- Action Execution  
+- Digital Twin Snapshot Recording  
+
+Each stage is driven without manual intervention, enabling rapid and consistent enterprise automation.
+
+---
+
+#### **2. AEB (Autonomous Enterprise Brain) Dashboard**
+A multi-layer analytics experience featuring:
+- Pipeline metrics (Signal → Case → Decision → Action)
+- Cognitive Load Score
+- Case Journey Insights
+- Confidence Trend Line
+- Workflow Efficiency KPIs
+
+---
+
+#### **3. Modular Architecture**
+A highly structured 12-phase engineering model including:
+- Core tables & data schemas  
+- Script Include logic  
+- Business Rules  
+- ACL security framework  
+- Dashboard visualizations  
+- Notifications & extensibility hooks  
+
+---
+
+#### **4. Digital Twin Engine**
+Every automated transaction produces a state snapshot used for:
+- Auditing  
+- RCA (Root Cause Analysis)  
+- Predictive analytics  
+- Workflow lineage  
+
+Now enterprises can replay any workflow’s lifecycle.
+
+---
+
+#### **5. Enterprise Security Model**
+Includes:
+- Scoped app isolation  
+- Role-based access controls  
+- Protected system actions  
+
+---
+
+### 🧩 Compatibility & Requirements
+- **Platform:** ServiceNow Zurich or later  
+- **Role Requirements:** `admin` or `ex360.user`  
+- **Browser:** Chrome recommended  
+
+---
+
+### 🔮 Upcoming Enhancements
+(Planned for Version 1.1.0+)
+- AI-based Decision Recommendation Engine  
+- Adaptive routing and priority scoring  
+- Multi-signal correlation models  
+- Predictive digital twin insights  
+
+
 
 ## 🧑‍💻 Author  
 **Srikanth Madabhushi**  

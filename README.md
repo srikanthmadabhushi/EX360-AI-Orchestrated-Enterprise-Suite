@@ -184,6 +184,134 @@ Copy code
 
 ---
 
+## ✨ Key Features of EX360
+
+EX360 is engineered as an autonomous, AI-driven workflow engine that transforms enterprise operations from reactive to predictive.  
+The platform delivers both **business value** and **deep technical capability**.
+
+---
+
+## 🔹 1. Real-Time Signal Intelligence
+EX360 ingests events from any enterprise system and converts them into structured workflow triggers.
+
+**Technical Capabilities**
+- Handles JSON, text, structured/unstructured signals  
+- Performs source classification & normalization  
+- Automatically sets lifecycle state (New → Processed)  
+
+**Business Impact**
+- Zero manual triage  
+- Faster response times  
+- Full visibility into operational noise  
+
+---
+
+## 🔹 2. Autonomous Case Generation Engine
+Signals are instantly converted into structured EX360 Cases.
+
+**Technical Capabilities**
+- Auto-populates category, subcategory, source system  
+- Links back to originating signal  
+- Enriched metadata for decisioning  
+
+**Business Impact**
+- Cleaner routing  
+- Consistent case structure  
+- End-to-end traceability  
+
+---
+
+## 🔹 3. Intelligent Decision Engine (AEB Core)
+Every case triggers automated decision logic with AI confidence scoring.
+
+**Technical Capabilities**
+- Automated decision summary generation  
+- Configurable decision types  
+- Confidence scoring model  
+- Pluggable rule sets & ML extensions  
+
+**Business Impact**
+- Reduced analyst workload  
+- Improved accuracy  
+- Faster issue resolution  
+
+---
+
+## 🔹 4. Autonomous Action Executor
+The system automatically performs remediation or routing actions.
+
+**Technical Capabilities**
+- Executes contextual actions  
+- Logs payload, summary, and execution metadata  
+- Supports multi-action chaining  
+- Fully auditable logs  
+
+**Business Impact**
+- Removes repetitive human tasks  
+- Ensures consistent response  
+- Increases workflow reliability  
+
+---
+
+## 🔹 5. Digital Twin Snapshot Engine
+Every transaction creates a snapshot of system state.
+
+**Technical Capabilities**
+- JSON-based snapshot representation  
+- Links to Signal, Case, Decision, and Action  
+- Timestamped historical versioning  
+- Supports anomaly detection  
+
+**Business Impact**
+- Operational replayability  
+- Simplified RCA (Root Cause Analysis)  
+- Enhanced governance & compliance  
+
+---
+
+## 🔹 6. AEB Command Center (Analytics Dashboard)
+A real-time cockpit for operational intelligence.
+
+**Technical KPIs**
+- Signal → Case conversion rate  
+- Decision confidence trend  
+- Action success rate  
+- Cognitive Load Score  
+- Processing time & SLA metrics  
+
+**Business Impact**
+- Faster insight delivery  
+- Data-driven leadership decisions  
+- Visibility across the entire automation chain  
+
+---
+
+## 🔹 7. Enterprise-Grade Security Framework
+Custom ACLs safeguard every EX360 table.
+
+**Technical Highlights**
+- Create / Read / Write / Delete protections  
+- Viewer-only vs Admin roles  
+- Scoped app isolation  
+- Supports enterprise RBAC models  
+
+**Business Impact**
+- Prevents unauthorized actions  
+- Ensures safe automation at scale  
+- Aligned with enterprise IT controls  
+
+---
+
+## 🔹 8. Modular & Extensible Architecture
+Designed so teams can build plugins or extend any phase:
+
+- Custom Signal types  
+- New Decision models  
+- Additional Action modules  
+- External AI integrations (OpenAI, Vertex AI, etc.)  
+
+---
+
 ## 🧑‍💻 Author  
 **Srikanth Madabhushi**  
 AI Automation & Workflow Specialist  

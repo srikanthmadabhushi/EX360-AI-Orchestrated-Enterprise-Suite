@@ -1,5 +1,12 @@
 # 🚀 EX360 — AI Orchestrated Enterprise Suite  
 
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" />
+  <img src="https://img.shields.io/badge/Build-EX360_Stable-green.svg" alt="Build Status" />
+  <img src="https://img.shields.io/badge/Platform-ServiceNow_Yokhoma-red.svg" alt="Platform" />
+  <img src="https://img.shields.io/badge/AI-Orchestrated_Enterprise-purple.svg" alt="AI" />
+</p>
+
 ### Autonomous Enterprise Intelligence on ServiceNow
 <img width="1536" height="1024" alt="ChatGPT Image Dec 6, 2025, 06_17_04 PM" src="https://github.com/user-attachments/assets/46bbe9d7-37ad-43ae-bb18-6c8c935d6745" />
 
